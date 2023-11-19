@@ -1,0 +1,51 @@
+.steps-section {
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.2rem;
+      line-height: 1.1;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    &__label {
+      display: none;
+    }
+  }
+
+  @include lg {
+    .steps {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+
+      &__item {
+        flex-direction: row;
+        gap: 20px;
+        font-size: 2rem;
+
+        svg {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      &__label {
+        display: inline;
+      }
+    }
+  }
+}

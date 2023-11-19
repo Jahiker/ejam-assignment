@@ -15,6 +15,10 @@ body {
   color: $color_dark;
 }
 
+.main {
+  min-height: 80vh;
+}
+
 .container {
   max-width: 1245px;
   margin: 0 auto;

@@ -1,0 +1,53 @@
+.footer-section {
+  background-color: $color_tertiary;
+  color: $color_light;
+  padding: 20px;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+
+    &__copy {
+      display: flex;
+      padding: 8px 0;
+      font-size: 1.2rem;
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 12px;
+        border-right: 1px solid $color_light;
+
+        &:last-child {
+          border: none;
+          padding-left: 12px;
+          padding-right: 0;
+        }
+      }
+    }
+
+    &__secure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      font-size: 1.2rem;
+    }
+  }
+
+  @include lg {
+    padding: 24px 20px;
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+}
