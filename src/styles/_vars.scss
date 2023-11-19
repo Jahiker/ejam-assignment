@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+$color_primary: #2c7ef8;
+$color_secondary: #59ae43;
+$color_tertiary: #252f3d;
+$color_fourth: #fafafa;
+$color_fifth: #edf3fd;
+
+$color_dark: #000000;
+$color_light: #ffffff;
+
+// Fonts
+$font_primary: "Manrope", sans-serif;
+
+// Smartphones
+$screen-xsm: 425px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm: 576px;
+
+// Small tablets (portrait view)
+$screen-md: 768px;
+
+// Tablets and small desktops
+$screen-lg: 992px;
+
+// Large tablets and desktops
+$screen-xl: 1200px;
+
+// Large laptops
+$screen-xlg: 1440px;
+
+// Extra large desktop
+$screen-xxl: 1600px;
