@@ -13,7 +13,7 @@ Instructions:
 - Design must also be mobile formatted
 - Reply to the email that sent you the test assignment with a working link that anyone can view your webpage
 
-## instructions
+## Instructions
 
 For running this project on a local server:
 
